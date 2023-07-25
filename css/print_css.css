@@ -1,0 +1,198 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	float:left;
+	width:100%;
+}
+.printSaveButton {
+	float:left;
+	width:98%;
+	margin-top:1%;
+}
+.contentArea {
+	border:1px solid #ccc;
+	float:left;
+	width:96%;
+	margin:2%;
+}
+.topAddressSection {
+	float:left;
+	width:100%;
+	padding:1% 0;
+	font-size:15px;
+}
+.topAddressSection p {
+	text-align:center;
+}
+.mainContainerArea {
+	float:left;
+	width:100%;
+}
+.second_row {
+	float:left;
+	width:100%;
+	padding: 1% 0;
+	border-top:1px solid #ccc;
+}
+.secondLeft {
+	float:left;
+	width:53%;
+	padding-right:2%;
+}
+.secondLeft p {
+	text-align:right;
+	font-size:16px;
+	font-weight:bold;
+}
+.checkboxes {
+	float:right;
+	width:45%;
+}
+.checkboxStyle {
+	text-align:left;
+	margin-left:35%;
+}
+.loginFooterContent {
+	float: left;
+	width: 96%;
+	margin-top: 2%;
+	padding: 2%;
+}
+.boxes {
+	float:left;
+	width:100%;
+	border-top:1px solid #ccc;
+}
+.first_box,.second_box {
+	float: left;
+	padding:2% 0;
+	width:50%
+}
+.first_box {
+	width:46%;
+	padding-left:3%;
+	border-right:1px solid #ccc;
+}
+
+.bottom_row {
+	float:left;
+	width:100%;
+}
+.amount_row {
+	width:60%;
+	float:left;
+}
+.amtInWords,.bank_details,.received_by  {
+	float:left;
+	width:96%;
+	padding:2%;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.received_by {
+	border-bottom:0px;
+	border-right:1px solid #ccc;
+}
+.amount_row input {
+	width: 400px;
+}
+.tax_row,.signature {
+	width:40%;
+	float:right;
+}
+.signature {
+	padding: 6% 0;
+}
+.taxSection {
+	float:left;
+	width:100%;
+	padding-bottom:6%;
+	border-bottom:1px solid #ccc;
+}
+.width50 {
+	float:left;
+	width:46%;
+	padding:2%;
+}
+.width50 p {
+	text-align:center;
+}
+.first_box .width50 {
+	padding:0px;
+}
+.first_box .width50 p {
+	text-align:left;
+}
+.bank_details> p:first-child {
+	font-weight:bold;
+}
+.row_bg {
+	background-color:#eee;
+}
+.tablescroll {
+	float: left;
+	width: 100%;
+	overflow-x: scroll;
+}
+.table1 {
+	float:left;
+	width: 100%;
+	margin:0;
+	text-align: center;
+	border-collapse: collapse;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.table2 {
+	float:left;
+	width: 100%;
+	margin:0;
+	text-align: center;
+}
+.table2 td {
+	border-right: 1px solid #ccc;
+	padding:10px;
+	font-weight: normal;
+}
+table {
+	float:left;
+	width:100%;
+}
+
+textarea {
+	font:13px/1.5 Tahoma, Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+.first_box input, .second_box input, .amount_row input, .tax_row input, textarea {
+	border: none;
+	width:100%;
+}
+.first_box input:hover, .second_box input:hover, .amount_row input:hover, .tax_row input:hover {
+	background-color: #ccc;
+}
+ @page {
+ size: A4;
+ margin: 0;
+}
+ @media print {
+html, body {
+	width: 29.7cm;
+	height: 21cm;
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+}
+#printViewContainer {
+	margin: 0;
+	border: initial;
+	border-radius: initial;
+	width: initial;
+	min-height: initial;
+	box-shadow: initial;
+	background: initial;
+	page-break-after: always;
+}
+.loginFooterContent p {
+	font-size:14px;
+}
+}
